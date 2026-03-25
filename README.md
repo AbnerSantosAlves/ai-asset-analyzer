@@ -82,6 +82,7 @@ Resposta:
     "pvp": 1.2,
     "margem_ebitda": "30%"
   }
+...
 }
 ```
 
