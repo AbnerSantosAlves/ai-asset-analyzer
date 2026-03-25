@@ -1,0 +1,196 @@
+/* BASE */
+main{
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* SEARCH */
+.search-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.search-container{
+  width: 100%;
+  max-width: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.search-title-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.search-title{
+  font-size: 42px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.search-description{
+  font-size: 16px;
+  max-width: 600px;
+  margin-top: 10px;
+}
+
+/* INPUT */
+.search-input-container{
+  display: flex;
+  width: 100%;
+}
+
+.search-input{
+  flex: 1;
+  padding: 15px;
+  border: 1px solid #000;
+  border-radius: 5px;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.search-button{
+  margin-left: 10px;
+  padding: 15px 20px;
+  background-color: #000;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* RESULTADOS */
+.results-section{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.results-container{
+  width: 100%;
+  max-width: 900px;
+  margin-top: 40px;
+}
+
+/* TITULO DO ATIVO */
+.asset-name {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.asset-name::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  border-radius: 10px;
+  opacity: 0.2;
+  background-color: #000;
+  margin-top: 5px;
+}
+
+/* CARDS */
+.results-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 15px;
+  width: 100%;
+}
+
+.card {
+  padding: 20px;
+  border: 1px solid #0000004d;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 5px 9px 5px #00000021;
+}
+
+.card:hover{
+  box-shadow: 5px 9px 5px #00000071;
+  transition: 500ms;
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.card-value {
+  font-size: 18px;
+  margin-top: 5px;
+}
+
+/* SEÇÕES ADICIONAIS */
+.additional-information{
+  margin-top: 40px;
+}
+
+.additional-information-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.additional-information-title::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 4px;
+  border-radius: 10px;
+  opacity: 0.2;
+  background-color: #000;
+  margin-top: 5px;
+}
+
+.additional-information-description {
+  font-size: 15px;
+  margin-top: 8px;
+  line-height: 1.5;
+}
+
+.title-description {
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+/* RESPONSIVIDADE */
+@media (max-width: 768px) {
+  .search-title{
+    font-size: 32px;
+  }
+
+  .search-input-container{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .search-button{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  main{
+    padding: 20px 10px;
+  }
+
+  .search-title{
+    font-size: 26px;
+  }
+
+  .search-description{
+    font-size: 14px;
+  }
+}
