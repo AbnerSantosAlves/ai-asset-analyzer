@@ -1,4 +1,4 @@
-/* BASE */
+
 main{
   font-family: 'Arial', sans-serif;
   display: flex;
@@ -8,7 +8,7 @@ main{
   padding: 40px 20px;
 }
 
-/* SEARCH */
+
 .search-section{
   width: 100%;
   display: flex;
@@ -43,7 +43,7 @@ main{
   margin-top: 10px;
 }
 
-/* INPUT */
+
 .search-input-container{
   display: flex;
   width: 100%;
@@ -69,7 +69,7 @@ main{
   font-weight: bold;
 }
 
-/* RESULTADOS */
+
 .results-section{
   width: 100%;
   display: flex;
@@ -82,7 +82,7 @@ main{
   margin-top: 40px;
 }
 
-/* TITULO DO ATIVO */
+
 .asset-name {
   font-size: 22px;
   font-weight: bold;
@@ -100,7 +100,7 @@ main{
   margin-top: 5px;
 }
 
-/* CARDS */
+
 .results-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -132,7 +132,7 @@ main{
   margin-top: 5px;
 }
 
-/* SEÇÕES ADICIONAIS */
+
 .additional-information{
   margin-top: 40px;
 }
