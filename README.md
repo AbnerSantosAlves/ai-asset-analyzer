@@ -66,7 +66,7 @@ http://localhost:5173
 Requisição:
 
 ```
-GET /analisar/PETR4
+GET /analyze/PETR4
 ```
 
 Resposta:
