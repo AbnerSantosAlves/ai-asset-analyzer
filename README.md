@@ -2,7 +2,7 @@
 
 <p>Este é um projeto desenvolvido para a análise de ativos financeiros utilizando Inteligência Artificial. A aplicação combina Python, para API REST e a lógica da IA (prompt), e React (Frontend).</p>
 
-<p>Através de um campo de pesquisa, o usuário deve digitar o código do ativo que deseja analisar, envia uma requisição para o nosso backend que retorna os dados extraídos da IA obtidos através de um prompt que faz a resposta ser estruturada em Json.</p>
+<p>Através de um campo de pesquisa, o usuário deve digitar o código do ativo que deseja analisar, uma requisição é enviada para o nosso backend que retorna os dados extraídos da IA obtidos através de um prompt que faz a resposta ser estruturada em Json.</p>
 
 
 <h3>Funcionalidades</h3>
